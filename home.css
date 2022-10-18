@@ -1,0 +1,236 @@
+/* nav bar start */
+.header-nav{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+    
+}
+.header-nav ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin:30px 47px 43px 501px;
+    padding:0;
+    gap: 32px;
+
+    /* position: absolute;
+    left: 48%;
+    top: 0.51%; */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #394149;
+
+}
+.header-nav img{
+    /* position: absolute;
+    left: 16.67%;
+    top: 0.42%; */
+    margin-top: 28px;
+    
+    width: 122px;
+    height: 28px;
+}
+.header-nav .btn{
+    background: rgba(245,138,7,0.1);
+    border-radius: 31px;
+    margin-top: 16px;
+    margin-bottom: 29px;
+    /* position: absolute;
+    left: 75.83%;
+    top: 0.51%; */
+    color: #f58a07;
+    padding: 18px 30px 17px 29px;
+    font-size: 16px;
+    line-height: 106.5%;
+}
+/* nav bar end */
+
+/* header start */
+.headersection{
+    background: #dceaf5;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    padding: 0 16%;
+ 
+}
+.header{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    padding: 117px 0 147px 0;
+    
+}
+.header-text .title{
+    font-size: 64px;
+    line-height: 72px;
+    color: #1d3444;
+    margin-bottom: 12px;
+}
+.header-text .para{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    font-weight: 500;
+}
+.header-text .idk{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(57, 65, 73, 0.5);
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+.header-text .service{
+    display: flex;
+    align-items: center;
+    margin: 32px 0 56px 0;
+}
+.header-text .btn{
+    font-size: 16px;
+    line-height: 17.04px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    background: #f58a07;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
+}
+.header-text .sidebtn{
+    font-size: 16px;
+    line-height: 17.04px;
+    color: #1d3444;
+    font-weight: 500;
+    margin-left:40px;
+}
+.header-text .headerlogo{
+    margin-right: 45px;
+}  
+
+.header-img{
+    display: flex;
+    margin-top: 58px;
+    margin-bottom: 0px;
+}
+
+
+/* header end */
+/* help section start */
+.helpsection{
+    width: 1280px;
+    margin: 0 auto;
+}
+.helpsection .text>h2{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #1d3444;
+    letter-spacing: -0.03em;
+    margin: 83px 500px 27px 0;
+}
+.helpsection .text>p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5b5b5b;
+    margin-right: 500px;
+    margin-bottom: 63px ;
+}
+.helpbox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+.help{
+    width: 400px;
+    height: 447px;
+    background: #fff;
+}
+.help .btn{
+    color: #f58a07;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.help>img{
+    border-radius: 20px;
+}
+.help>h3{
+    font-size: 24px;
+    line-height: 25.5px;
+    font-weight: 500;
+    color: #0d1317;
+}
+.help>p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #5b5b5b;
+}
+
+/* help section end */
+/* features section start */
+.featuresBG{
+    background: #dceaf5;
+}
+.featuressection{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+}
+.featurestext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+.featurestext h1{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #0d1317;
+}
+.featurestext p{
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #1d3444;
+}
+.featuresbox{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 96px;
+}
+.feature{
+    background: #fff;
+    width: 400px;
+    height: 277px;
+    border-radius: 20px;
+    padding: 48px 26px 37px 40px;
+
+}
+
+.feature h1{
+    font-size: 24px;
+    line-height: 25.5px;
+    color: #0d1317;
+}
+.feature p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #5b5b5b;
+}
+
+/* features section end */
+/* about section start */
+
+
+
+/* about section end */
