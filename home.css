@@ -63,7 +63,7 @@
 .header-text{
     display: flex;
     flex-direction: column;
-    padding: 117px 0 147px 0;
+    padding: 117px 30px 147px 0;
     
 }
 .header-text .title{
@@ -108,13 +108,11 @@
     margin-left:40px;
 }
 .header-text .headerlogo{
-    margin-right: 45px;
+    flex-direction: row;
 }  
 
 .header-img{
-    display: flex;
-    margin-top: 58px;
-    margin-bottom: 0px;
+    margin: 0 auto;
 }
 
 
@@ -230,7 +228,100 @@
 
 /* features section end */
 /* about section start */
-
-
-
+.aboutsection{
+    width: 1280px;
+    margin: 0 auto 96px;
+    display: flex;
+}
+.abouttext h1{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+}
+.abouttext p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+.aboutbox{
+    display: flex;
+}
+.aboutfeature h2{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #f58a07;
+}
+.aboutfeature h1{
+    font-size: 24px;
+    line-height: 25.5px;
+    color: #0d1317;
+    font-weight:600;
+}
+.aboutfeature p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+.aboutimage{
+    margin-left: 40px;
+}
 /* about section end */
+/* service section start */
+.servicesection{
+    position: relative;
+    width: 1280px;
+    background:#dceaf5;
+    display: flex;
+    margin: 0 auto 96px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.servicebtm{
+    display: flex;
+
+}
+.servicebulan{
+    position:absolute;
+    right: -16px;
+    top: -16px;
+}
+.servicetab{
+    margin: 48px 132px 80px 48px;
+    display:flex;
+}
+.servicetab .tab1{
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #f58a07;
+    border-radius: 31px;
+    background-color: white;
+    /* padd iig arilgaj bolno! */
+    /* padding: 8px 24px; */
+    height: 40px;
+
+}
+.servicetab .tab{
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #A8bccc;
+    padding: 8px 24px;
+    border:1px solid;
+    border-radius: 31px;
+    height: 40px;
+
+}
+.btn{
+    color: #f58a07;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+}
+/* service section end */
