@@ -53,6 +53,7 @@
     display: flex;
     font-family: Poppins, sans-serif;
     padding: 0 16%;
+    position: relative;
  
 }
 .header{
@@ -64,7 +65,7 @@
     display: flex;
     flex-direction: column;
     padding: 117px 30px 147px 0;
-    
+    margin-right: 530px;
 }
 .header-text .title{
     font-size: 64px;
@@ -109,10 +110,13 @@
 }
 .header-text .headerlogo{
     flex-direction: row;
+    margin-right: 48px;
 }  
 
 .header-img{
-    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    right: 340px;
 }
 
 
@@ -301,7 +305,7 @@
     border-radius: 31px;
     background-color: white;
     /* padd iig arilgaj bolno! */
-    /* padding: 8px 24px; */
+    padding: 8px 24px;
     height: 40px;
 
 }
@@ -325,3 +329,263 @@
     font-weight: 500;
 }
 /* service section end */
+/* CTA section start */
+.CTAsection>*{
+    flex-basis: 49%;
+}
+.CTAsection{
+    display: flex;
+    margin: 0 auto 96px;
+    width: 100%;
+}
+.CTAtext{
+    background: #f58a07;
+    display: flex;
+    flex-direction: column;
+    padding: 128px;
+}
+.CTAtext a{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 60px;
+    padding-right: 300px;
+}
+.ctabox{
+    padding-bottom: 128px;
+}
+.ctabox a{
+    background: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    color: #f58a07;
+    padding: 19px 32px 18px 32px;
+    border-radius: 31px;
+}
+.CTAimage {
+    background-image: url('./images/experience.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CTA section end */
+/* Video section start */
+.Videosection{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto 96px;
+}
+.Video-left{
+    margin: auto;
+}
+.Video-left .title{
+    font-size: 48px;
+    line-height: 56px;
+    color: #0d1317;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.Video-left .person{
+    display: flex;
+}
+.Video-left .text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    margin-bottom: 40px;
+}
+.Video-left .person-position{
+    font-size: 18px;
+    line-height: 171%;
+    color: #f58a07;
+}
+.Video-left .person-name{
+    font-size: 24px;
+    line-height: 171%;
+    color: #063255;
+}
+.Video-right{
+    margin-left: 100px;
+    position: relative;
+}
+/* .Video-right .Video-image{
+    position: relative;
+} */
+.Video-right .icon{
+    position: absolute;
+    display: flex;
+    left: 40px;
+    bottom: 40px;
+    align-items: center;
+}
+.Video-right .icon-image{
+    background-color: #fff;
+    width: 51px;
+    height: 51px;
+    padding: 17px 14px 17px 20px;
+    border-radius:50%;
+}
+.Video-right .icon-text{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 17px;
+}
+
+
+/* Video section end */
+/* Latest section start */
+.Latestsection{
+    background: #dceaf5;
+}
+.Latestsection .Latest-Background{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 96px 0;
+}
+.Latestsection .Title{
+    font-size: 48px;
+    line-height: 56px;
+    color: #0d1317;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+.Latestsection .Latest-bottom{
+    display: flex;
+
+}
+.box{
+    /* width: 400px;
+    height: 447px; */
+    background: #fff;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.box .box-text{
+    padding: 32px;
+}
+.box .btn{
+    color: #f58a07;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.box-text>h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #0d1317;
+}
+.box-text>p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #5b5b5b;
+}
+/* Latest section end */
+/* Start of footer */
+
+.Footersection{
+    background: #063255;
+    position: relative;
+}
+/* .Footer-background{
+    position: relative;
+} */
+.Footer-position{
+    width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    flex-direction: column;
+
+}
+
+.Footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-basis: 50%; */
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.Footer-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+.Footer-left .title{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    padding: 32px 0;
+}
+.Footer-middle{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+    padding-bottom: 26px;
+ 
+}
+.Footer-middle .text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.Footer-right{
+
+    flex-basis: 30%;
+    padding-bottom: 26px;
+}
+.Footer-right .email-btn{
+    font-size: 16px;
+    line-height: 19px;
+    color: #9c9c9c;
+    background-color: #fff;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+    margin-top: 42px;
+    margin-bottom: 33px;
+}
+.Footer-right .footer-btn a{
+    font-size: 18px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #f58a07;
+    padding: 17px 32px;
+    border-radius: 31px;
+}
+
+.Footer-btm{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.Footer-btm .btm-right{
+    display: flex;
+}
+.Footer-btm .btm-right1{
+    margin-right: 32px;
+}
+.Shape-left{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.Shape-right{
+    position: absolute;
+    right: 0px;
+    top: 38px;
+    
+}
+
+/* End of footer */
