@@ -1,1 +1,4 @@
 # BieDaalt
+
+Anerchy
+Usukhbayar Tumenbayar

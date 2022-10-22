@@ -589,3 +589,311 @@
 }
 
 /* End of footer */
+
+
+/* Start of Page 2 Services */
+
+/* Start of Header */
+.Page2header{
+    display: flex;
+    margin: 90px auto;
+}
+.Page2-header-text{
+    display: flex;
+    flex-direction: column;
+    padding: 117px 30px 147px 0;
+}
+.Page2-header-text .title{
+    font-size: 64px;
+    line-height: 72px;
+    color: #1d3444;
+    margin-bottom: 12px;
+}
+.Page2-header-text .para{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    font-weight: 500;
+}
+.Page2-header-text .idk{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(57, 65, 73, 0.5);
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+.Page2-header-text .service{
+    display: flex;
+    align-items: center;
+    margin: 32px 0 56px 0;
+}
+.Page2-header-text .btn{
+    font-size: 16px;
+    line-height: 17.04px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    background: #f58a07;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
+}
+/* End of Header */
+/* Start of Features */
+.Page2feature{
+    display: flex;
+    flex-direction: column;
+}
+.Page2-feature{
+    display: flex;
+    /* margin: 64px 40px; */
+}
+.Page2-feature .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Page2-feature .image{
+    margin: 0px 76px 128px 0px;
+}
+.Page2-feature .text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 80px 0 0;
+}
+.Page2-feature .image1{
+    margin: 0px 0px 128px 0px;
+}
+.Page2-feature .title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.Page2feature .para{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+}
+.Page2-feature .list{
+    font-size: 16px;
+    line-height: 28px;
+    color: #5b5b5b;
+
+}
+.image{
+    position: relative;
+}
+.topbox{
+    position: absolute;
+    top: 128px;
+    left: -48px;
+    mix-blend-mode: multiply;
+}
+.middlebox{
+    position: absolute;
+    top: 217px;
+    left: -48px;
+    mix-blend-mode: multiply;
+}
+.bottombox{
+    position: absolute;
+    top: 342px;
+    left: -48px;
+    mix-blend-mode: multiply;
+}
+.image1{
+    position: relative;
+}
+.Ybox{
+    position: absolute;
+    bottom: 182px;
+    right: -48px;
+    mix-blend-mode: multiply;
+}
+
+/* End of Features */
+
+
+/* End of Page2 Services */
+/* Start of Page3 Careers */
+/* Start of Header */
+.Page3header{
+    display: flex;
+    margin: 90px auto;
+}
+.Page3-header-text{
+    display: flex;
+    flex-direction: column;
+    padding: 117px 30px 47px 0;
+}
+.Page3-header-text .title{
+    font-size: 64px;
+    line-height: 72px;
+    color: #1d3444;
+    margin-bottom: 12px;
+}
+.Page3-header-text .para{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    font-weight: 500;
+}
+.Page3-header-text .idk{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(57, 65, 73, 0.5);
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+.Page3-header-text .service{
+    display: flex;
+    align-items: center;
+    margin: 32px 0 56px 0;
+}
+.Page3-header-text .btn{
+    font-size: 16px;
+    line-height: 17.04px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    background: #f58a07;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
+}
+/* End of Header */
+/* start of career section */
+.Page3-section{
+    display: flex;
+    flex-direction: column;
+}
+.Page3-section .title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.card-bottom{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 128px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: rgba(193, 228, 255, 0.3);
+    width: 400px;
+    height: 181px;
+    justify-content: center;
+    align-content: center;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+.card .btn{
+    font-weight: 300;
+}
+.small-title{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight:400;
+}
+.inner-card{
+    padding: 32px 0 32px 40px;
+
+}
+.card .para{
+    color: #394149;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+/* End of career section */
+
+/* End of Page3 Careers */
+/* Start of Page4 */
+/* Start of Header */
+.Page4-background{
+    background: #dceaf5;
+}
+.Page4-header{
+    display: flex;
+    width: 1280px;
+    margin: 90px auto;
+    padding: 128px 0;
+}
+.Page4-header-text{
+    display: flex;
+    flex-direction: column;
+    /* padding: 117px 30px 47px 0; */
+    margin-right: 102px;
+}
+.Page4-header-text .title{
+    font-size: 64px;
+    line-height: 72px;
+    color: #1d3444;
+    margin: 24px 0;
+    font-weight: 600;
+}
+.Page4-header-text .para{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+    font-weight: 500;
+}
+.Page4-header-text .idk{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(57, 65, 73, 0.5);
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+.Page4-header-text .service{
+    display: flex;
+    align-items: center;
+    margin: 32px 0 56px 0;
+}
+.btn{
+    font-size: 16px;
+    line-height: 17.04px;
+    text-transform: capitalize;
+    border-radius: 27px;
+    padding-top: 24px;
+    /* padding: 18px 32px 19px 32px; */
+    color: #f58a07;
+}
+.header-member{
+    display: flex;
+    color: #394149;
+    align-items: center;
+}
+.header-member .name{
+    margin-left: 8px;
+    margin-right: 24px;
+}
+.Page4-header-img>img{
+    border-radius: 20px;
+}
+/* End of Header */
+
+.Page4{
+    background: #fff;
+
+}
+.Page4 .box{
+    background-color: #dceaf5;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.Page4 .box>img{
+    border-radius: 20px;
+}
+
+/* End of Page4 */
